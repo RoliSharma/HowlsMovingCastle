@@ -1,4 +1,4 @@
 # HowlsMovingCastle
 Self learning React project 
 
-Hosted [here] (https://rolisharma.github.io/HowlsMovingCastle/) 
+Hosted here: [HowlsMovingCastle](https://rolisharma.github.io/HowlsMovingCastle/)
