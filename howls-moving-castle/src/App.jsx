@@ -41,7 +41,7 @@ function App() {
   
   useEffect(() => {
     // Initialize audio
-    audioRef.current = new Audio('/sounds/howls-bgm.mp3');
+    audioRef.current = new Audio('howls-bgm.mp3');
     audioRef.current.loop = true;
     audioRef.current.volume = volume;
     
