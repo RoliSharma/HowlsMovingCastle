@@ -41,7 +41,7 @@ function App() {
   
   useEffect(() => {
     // Initialize audio
-    audioRef.current = new Audio('howls-bgm.mp3');
+    audioRef.current = new Audio('https://github.com/RoliSharma/HowlsMovingCastle/raw/refs/heads/main/howls-moving-castle/howls-bgm.mp3');
     audioRef.current.loop = true;
     audioRef.current.volume = volume;
     
