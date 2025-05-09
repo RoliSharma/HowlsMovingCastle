@@ -1,13 +1,15 @@
 {
   "name": "howls-moving-castle-window",
   "type": "module",
-  "homepage": "https://RoliSharma.github.io/howls-moving-castle",
+  "homepage": "https://RoliSharma.github.io/HowlsMovingCastle",
   "version": "0.0.0",
   "private": true,
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist -f"
   },
   "dependencies": {
     "@radix-ui/react-alert-dialog": "^1.0.5",
