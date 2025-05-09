@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 
 const WindowView = () => {
   return (
-    <div className="window-view w-full h-full relative">
+    <div className="window-view w-full h-full fixed top-0 left-0">
       {/* Sky gradient background */}
       <div className="absolute inset-0 bg-gradient-to-b from-[#87CEEB] via-[#B0E2FF] to-[#E0F7FA]"></div>
       

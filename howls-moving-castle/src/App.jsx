@@ -20,7 +20,7 @@ import { format } from 'date-fns';
 import WindowView from '@/components/WindowView';
 import AnimatedClouds from '@/components/AnimatedClouds';
 import Windchime from '@/components/Windchime';
-import ClockWidget from '@/components/ClockWidget';
+// import ClockWidget from '@/components/ClockWidget';
 import MusicPlayer from '@/components/MusicPlayer';
 import SpotifyIntegration from '@/components/SpotifyIntegration';
 
@@ -87,7 +87,7 @@ function App() {
   };
 
   return (
-    <div className="h-full w-full bg-gradient-to-b from-[#2c3e50] to-[#34495e] p-6 flex items-center justify-center">
+    <div className="h-full w-full bg-gradient-to-b from-[#8dc9a5] to-[#345e49] p-6 flex items-center justify-center">
       <div className="window-frame w-full max-w-5xl h-[85vh] rounded-lg overflow-hidden relative">
         <WindowView />
         <AnimatedClouds />
@@ -125,9 +125,9 @@ function App() {
         </div>
         
         {/* Clock Widget */}
-        <div className="absolute top-6 right-6 z-30">
+        {/* <div className="absolute top-6 right-6 z-30">
           <ClockWidget />
-        </div>
+        </div> */}
         
         {/* Spotify Integration */}
         <div className="absolute bottom-24 right-6 z-30">
