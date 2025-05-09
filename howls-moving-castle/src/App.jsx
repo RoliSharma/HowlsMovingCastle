@@ -25,12 +25,19 @@ import MusicPlayer from '@/components/MusicPlayer';
 import SpotifyIntegration from '@/components/SpotifyIntegration';
 
 function App() {
+  console.log('Starting application...');
   const { toast } = useToast();
+  console.log('defining toast...');
   const [isPlaying, setIsPlaying] = useState(false);
+  console.log('defining isPlaying...');
   const [volume, setVolume] = useState(0.5);
+  console.log('defining volume...');
   const [isMuted, setIsMuted] = useState(false);
+  console.log('defining isMuted...');
   const [showLyrics, setShowLyrics] = useState(false);
+  console.log('defining showLyrics...');
   const audioRef = useRef(null);
+  console.log('defining audioRef...');
   
   useEffect(() => {
     // Initialize audio
